@@ -11,8 +11,24 @@
       <h1 id="title">Tip Calculator</h1>
       <p>Enter your bill amount:</p>
       <input type="number" id="amountInput" placeholder="e.g. 50" />
-      <button id="calcBtn">Calculate 15% Tip</button>
-      <p id="tip">Tip: $0.00</p>
+      <div id="container2">
+        <div class="box">
+            <p>Split</p>
+            <input type="number" id="splitInput" ><span>People</span>
+            
+        </div>
+        <div class="box">
+            <p>Tip</p>
+            <input type="number" id="tipInput"><span>%</span>
+        </div>
+      </div>
+      
+      <button id="calcBtn">Calculate</button>
+      <br>
+      <p id="totalAmount"></p>
+      <p id="tip"></p>
+      <p id="splitBill"></p>
+      <h3 id="history"></h3>
     </div>
 
     <script src="script.js"></script>

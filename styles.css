@@ -20,6 +20,38 @@ body {
     
 }
 
+
+#container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+       
+    
+}
+
+.box {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+#container2 p {
+    text-decoration: underline;
+    
+}
+
+#splitInput, #tipInput {
+    width: 25%;
+    margin: 10px ;
+}
+
+
 #amountInput {
     width: 80%;
     padding: 10px;
@@ -35,6 +67,7 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     
+    
 }
 
 #calcBtn:hover {
@@ -44,3 +77,4 @@ body {
 #amountInput:hover {
     border: 1px solid rgb(133, 133, 133);
 }
+
